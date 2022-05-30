@@ -3,7 +3,7 @@ import { ethers, waffle } from 'hardhat';
 import web3 from 'web3';
 
 import { SignerWithAddress } from '@nomiclabs/hardhat-ethers/signers';
-import TheGameArtifact from '../artifacts/contracts/TheGame.sol/TheGame.json';
+import TheGameArtifact from '../ux/src/contract-artifacts/contracts/TheGame.sol/TheGame.json';
 import { TheGame } from '../typechain-types';
 
 describe('TheGame', function () {
